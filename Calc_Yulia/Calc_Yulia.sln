@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calc_Yulia", "Calc_Yulia\Calc_Yulia.csproj", "{37B80875-81C9-4155-9284-21801A901A97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37B80875-81C9-4155-9284-21801A901A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B80875-81C9-4155-9284-21801A901A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B80875-81C9-4155-9284-21801A901A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B80875-81C9-4155-9284-21801A901A97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77385130-E28B-4320-8A16-DCE6BD1264E3}
+	EndGlobalSection
+EndGlobal
