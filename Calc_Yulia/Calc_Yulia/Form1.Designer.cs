@@ -1,4 +1,7 @@
-﻿namespace Calc_Yulia
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace Calc_Yulia
 {
     partial class Form1
     {
@@ -30,10 +33,25 @@
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(500, 800);
             this.Text = "Form1";
+
+            high_label = new Label();
+            this.high_label.Location = new System.Drawing.Point(0, 0);
+            this.high_label.Size = new Size(500, 100);
+            this.high_label.BackColor = Color.Blue;
+            this.Controls.Add(high_label);
+
+            title_label = new Label();
+            this.title_label.Location = new Point(200, 120);
+            this.title_label.Size = new Size(300, 50);
+            this.title_label.Font = new Font("Times New Roman", 15);
+            this.title_label.Text = "Калькулятор по расходу топлива";
+            this.Controls.Add(title_label);
         }
 
+        Label high_label;
+        Label title_label;
         #endregion
     }
 }
