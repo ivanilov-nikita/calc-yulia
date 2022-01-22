@@ -43,15 +43,24 @@ namespace Calc_Yulia
             this.Controls.Add(high_label);
 
             title_label = new Label();
-            this.title_label.Location = new Point(200, 120);
-            this.title_label.Size = new Size(300, 50);
-            this.title_label.Font = new Font("Times New Roman", 15);
+            this.title_label.Location = new Point(80, 120);
+            this.title_label.Size = new Size(350, 50);
+            this.title_label.Font = new Font("Times New Roman", 18);
             this.title_label.Text = "Калькулятор по расходу топлива";
             this.Controls.Add(title_label);
+
+            distance_label = new Label();
+            this.distance_label.Location = new Point(10,title_label.Location.Y+120);
+            this.distance_label.Size = new Size(250, 50);
+            this.distance_label.Font = new Font("Times New Roman", 14);
+            this.distance_label.Text = "Сколько хотите проехать(км)";
+            this.Controls.Add(distance_label);
+
         }
 
         Label high_label;
         Label title_label;
+        Label distance_label;
         #endregion
     }
 }
